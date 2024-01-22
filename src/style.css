@@ -82,9 +82,10 @@ body {
   color: white;
 }
 
-.nav-link:hover,
+.nav .nav-link:hover,
 .nav-link-active:hover {
   color: gray;
+  background-color: inherit;
 }
 
 h5,
@@ -196,7 +197,7 @@ a {
 }
 
 .baguetteBox-button {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
 @media (max-width: 768px) {
